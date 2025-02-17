@@ -46,9 +46,9 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    text-decoration: none;
+    text-decoration: none; 
 }
-.contact-mail {
+.contact-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
