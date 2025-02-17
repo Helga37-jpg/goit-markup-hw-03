@@ -39,7 +39,6 @@ address {
 
 /* Навигация */
 .nav-list {
-    gap: 30px;
     list-style: none;
 }
 
@@ -96,8 +95,6 @@ address {
 .hero-button {
     background-color: blue;
     color: white;
-    padding: 10px 20px;
-    border: none;
     cursor: pointer;
 }
 
@@ -134,9 +131,6 @@ address {
     color: #2e2f42;
 }
 
-.section-img {
-    width: 360px;
-}
 
 .footer {
     background-color: #2e2f42;
