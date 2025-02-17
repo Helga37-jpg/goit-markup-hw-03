@@ -72,12 +72,18 @@ address {
     color: blue;
 }
 
+
 /* Герой-секция */
 .hero {
     background-color: #2E2F42;
     text-align: center;
     color: #fff;
     line-height: 1.07
+}
+.hero-business {
+    letter-spacing: 0.02em;
+    font-size: 56px
+
 }
 
 .hero-title {
@@ -88,13 +94,18 @@ address {
 }
 
 .hero-button {
-    background-color: blue;
+    background-color: #4D5AE5;
+    font-weight: 500;
     color: white;
     cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 
-.hero-button:hover {
-    background-color: darkblue;
+.hero-button:hover
+.hero-button:focus {
+    background-color: #404BBF;
+
 }
 
 /* Benefits */
