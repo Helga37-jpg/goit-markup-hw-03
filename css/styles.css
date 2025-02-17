@@ -7,20 +7,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
     background-color: #fff;
-    margin: 0;
-    padding: 0;
     list-style: none;
     /* Убирает точки у всех списков */
 }
 address {
     font-style: normal;
-}
-
-/* Контейнер */
-.container {
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 /* Хедер */
@@ -47,11 +38,8 @@ address {
 
 /* Навигация */
 .nav-list {
-    display: flex;
     gap: 30px;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .nav-link {
@@ -87,7 +75,6 @@ address {
 .hero {
     background-color: #2E2F42;
     text-align: center;
-    padding: 50px 0;
     color: #fff;
     line-height: 1.07
 }
@@ -113,11 +100,8 @@ address {
 
 /* Benefits */
 .benefits-list {
-    display: flex;
-    justify-content: space-between;
+
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 .benefits-text {
@@ -130,11 +114,9 @@ address {
 
 /* Our Team */
 .team-list {
-    display: flex;
-    justify-content: space-around;
+
     list-style: none;
-    padding: 0;
-    margin: 0;
+   
 }
 
 .section-title {
@@ -151,7 +133,6 @@ address {
 
 .footer {
     background-color: #2e2f42;
-    padding: 20px 0;
 }
 
 /* Логотип в футере */
@@ -164,8 +145,6 @@ address {
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
-    display: block;
-    margin-bottom: 10px;
 }
 
 /* Цвет для span внутри логотипа */
