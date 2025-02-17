@@ -1,0 +1,182 @@
+/* Общие стили */
+:root {
+    --light-text: #f4f4fd;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    /* Убирает точки у всех списков */
+}
+address {
+    font-style: normal;
+}
+
+/* Контейнер */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Хедер */
+.header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+/* Лого */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: #4d5ae5;
+}
+
+.logo span {
+    color: #2e2f42;
+}
+
+/* Навигация */
+.nav-list {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-link {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
+}
+
+.nav-link:first-child {
+    font-weight: 500;
+    color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+    color: #404bbf;
+}
+
+/* Контакты */
+.contact a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.contact a:hover,
+.contact a:focus {
+    color: blue;
+}
+
+/* Герой-секция */
+.hero {
+    background-color: #2E2F42;
+    text-align: center;
+    padding: 50px 0;
+    color: #fff;
+    line-height: 1.07
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    text-align: center
+}
+
+.hero-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-button:hover {
+    background-color: darkblue;
+}
+
+/* Benefits */
+.benefits-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+/* Our Team */
+.team-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.section-img {
+    width: 360px;
+}
+
+.footer {
+    background-color: #2e2f42;
+    padding: 20px 0;
+}
+
+/* Логотип в футере */
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Цвет для span внутри логотипа */
+.footer-span {
+    color: #f4f4fd;
+}
+
+/* Текст в футере */
+.footer-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--light-text, #f4f4fd);
+}
