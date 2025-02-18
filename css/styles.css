@@ -76,7 +76,7 @@ address {
 
 .contact a:hover,
 .contact a:focus {
-    color: blue;
+    color: #404bbf;
 }
 
 
@@ -109,7 +109,7 @@ address {
     letter-spacing: 0.04em;
 }
 
-.hero-button:hover
+.hero-button:hover,
 .hero-button:focus {
     background-color: #404BBF;
 
@@ -179,7 +179,7 @@ address {
     color: #434455;
 }
 
-.teams {
+.team.item {
 background-color: #FFFFFF
 }
 .footer {
