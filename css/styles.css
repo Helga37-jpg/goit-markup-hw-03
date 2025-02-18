@@ -38,6 +38,9 @@ address {
 }
 
 /* Навигация */
+.mail-contact {
+    color: #434455;
+}
 .nav-list {
     list-style: none;
 } 
