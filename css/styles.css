@@ -40,13 +40,20 @@ address {
 /* Навигация */
 .nav-list {
     list-style: none;
-}
+} 
 
 .nav-link {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none; 
+}
+.link-contact {
+    color: #434455
+}
+ .link-contact:hover,
+ .link-contact:focus { 
+    color: #404bbf
 }
 
 
