@@ -51,13 +51,6 @@ address {
     color: #434455;
     text-decoration: none; 
 }
-.link-contact {
-    color: #434455;
-}
- .link-contact:hover,
- .link-contact:focus { 
-    color: #404bbf
-}
 
 
 .nav-link:first-child {
@@ -71,17 +64,15 @@ address {
 }
 
 /* Контакты */
-.contact a {
-    text-decoration: none;
-    color: #333;
-    transition: color 0.3s;
+
+.link-contact {
+    color: #434455;
 }
 
-.contact a:hover,
-.contact a:focus {
-    color: #404bbf;
+.link-contact:hover,
+.link-contact:focus {
+    color: #404bbf
 }
-
 
 /* Герой-секция */
 .hero {
