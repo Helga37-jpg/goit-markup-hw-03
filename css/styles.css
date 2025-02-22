@@ -1,3 +1,32 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+
+.container {
+    width: 1158px;
+    /* Ширина из макета */
+    margin: 0 auto;
+    /* Центрирование */
+    padding: 0 15px;
+    /* Немного воздуха по бокам */
+}
+
 /* Общие стили */
 :root {
     --light-text: #f4f4fd;
@@ -8,7 +37,6 @@ body {
     color: #434455;
     background-color: #fff;
     list-style: none;
-    /* Убирает точки у всех списков */
 }
 address {
     font-style: normal;
@@ -204,4 +232,15 @@ background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--light-text, #f4f4fd);
+}
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    /* Расстояние между элементами */
+}
+
+.benefits-list li {
+    padding: 16px;
+    /* Внутренний отступ */
 }
