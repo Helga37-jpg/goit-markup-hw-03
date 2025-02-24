@@ -19,11 +19,7 @@ ul {
 
 .footer-container {
     display:inline;
-
-}
-
-.footer-item {
-    margin-bottom: 16px;
+    padding: 100px 0
 }
 
 /* Общие стили */
@@ -225,6 +221,7 @@ background-color: #FFFFFF;
     text-transform: uppercase;
     color: #4d5ae5;
     text-decoration: none;
+    margin-bottom: 16px;
 }
 
 /* Цвет для span внутри логотипа */
