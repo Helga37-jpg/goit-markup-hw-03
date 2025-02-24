@@ -1,22 +1,4 @@
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-
-}
-
-.container {
-    display: inline;
-}
-
 .footer-container {
     display:inline;
     padding: 100px 0
@@ -41,13 +23,40 @@ body {
 }
 address {
     font-style: normal;
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+
+}
+
+/*Общий стиль контейнер*/
+}
+.container {
+    max-width: 1158px;
+    max-height: 104px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 /* Хедер */
 .header {
     background-color: #fff;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    border-bottom: 1px solid #e7e9fc;
+    
 }
 
 /* Лого */
@@ -167,9 +176,6 @@ address {
     list-style: none;
     background-color: #FFFFFF;
    
-}
-.profile-photo {
-    display: block;
 }
 
 .section-title {
