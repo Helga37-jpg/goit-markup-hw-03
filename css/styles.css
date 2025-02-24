@@ -1,8 +1,4 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 h1,
 h2,
 h3,
@@ -19,17 +15,18 @@ ul {
 
 
 .container {
-    width: 1158px;
-    /* Ширина из макета */
-    margin: 0 auto;
-    /* Центрирование */
-    padding: 0 15px;
-    /* Немного воздуха по бокам */
+    display: inline;
 }
 
 /* Общие стили */
 :root {
     --light-text: #f4f4fd;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
 body {
@@ -207,6 +204,7 @@ background-color: #FFFFFF;
 }
 .footer {
     background-color: #2e2f42;
+    padding: 100px 
 }
 
 /* Логотип в футере */
