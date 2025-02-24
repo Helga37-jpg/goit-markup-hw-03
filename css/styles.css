@@ -168,6 +168,9 @@ address {
     background-color: #FFFFFF;
    
 }
+.profile-photo {
+    display: block;
+}
 
 .section-title {
     font-weight: 500;
