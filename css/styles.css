@@ -56,7 +56,12 @@ h1,h2,h3,h4,h5,h6,p {
     line-height: 1.5;
     letter-spacing: 0.02em;
     border-bottom: 1px solid #e7e9fc;
-    
+
+}
+
+.header-container{
+    display: flex;
+    align-items: center;
 }
 
 /* Лого */
@@ -74,6 +79,10 @@ h1,h2,h3,h4,h5,h6,p {
 .logo span {
     color: #2e2f42;
 }
+.header-logo {
+    padding: 24px 0;
+    margin: 76px;
+}
 
 /* Навигация */
 .mail-contact {
@@ -81,13 +90,19 @@ h1,h2,h3,h4,h5,h6,p {
 }
 .nav-list {
     list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 } 
 
 .nav-link {
+    padding: 24px 0;
+    display: block;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none; 
+
 }
 
 
@@ -101,14 +116,34 @@ h1,h2,h3,h4,h5,h6,p {
     color: #404bbf;
 }
 
-/* Контакты */
-
-.link-contact {
-    color: #434455;
+.nav {
+    display: flex;
+    align-items: center;
 }
 
-.link-contact:hover,
-.link-contact:focus {
+/* Контакты */
+
+.contact {
+    font-style: normal;
+    margin-left: auto;
+}
+.contact-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.contact-link {
+    display: block;
+    padding: 24px 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+
+.contact-link:hover,
+.contact-link:focus {
     color: #404bbf
 }
 
