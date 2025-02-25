@@ -1,4 +1,8 @@
-
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 .footer-container {
     display:inline;
     padding: 100px 0
@@ -9,11 +13,7 @@
     --light-text: #f4f4fd;
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -200,6 +200,18 @@ h1,h2,h3,h4,h5,h6,p {
     color: #2e2f42;
     list-style: none;
 }
+
+.benefits-list {
+    display: flex;
+    gap: 24px;
+    /* Расстояние между элементами */
+}
+
+.benefits-list li {
+    padding: 16px;
+    /* Внутренний отступ */
+}
+
 .info-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -250,12 +262,13 @@ h1,h2,h3,h4,h5,h6,p {
 .team-list {
 background-color: #FFFFFF;
 }
+
+/* Футер */
 .footer {
     background-color: #2e2f42;
     padding: 100px 0;
 }
 
-/* Логотип в футере */
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -281,13 +294,3 @@ background-color: #FFFFFF;
     color: var(--light-text, #f4f4fd);
 }
 
-.benefits-list {
-    display: flex;
-    gap: 24px;
-    /* Расстояние между элементами */
-}
-
-.benefits-list li {
-    padding: 16px;
-    /* Внутренний отступ */
-}
