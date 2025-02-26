@@ -104,7 +104,9 @@ h1,h2,h3,h4,h5,h6,p {
     text-decoration: none; 
 
 }
-
+.img {
+    display: block;
+}
 
 .nav-link:first-child {
     font-weight: 500;
