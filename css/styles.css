@@ -192,7 +192,13 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 /* Benefits */
+.benefits {
+    padding: 120px 0;
 
+}
+.benefits-item-title {
+    margin-bottom: 8px;
+}
 .benefits-title {
     font-weight: 500;
     font-size: 20px;
