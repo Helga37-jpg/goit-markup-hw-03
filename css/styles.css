@@ -269,12 +269,9 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
-.team-item {
+.team.item {
     width: calc((100% - 72px) / 4); 
     border-radius: 0px 0px 4px 4px;
-}
-.team-card {
-    width: calc((100% - 72px) / 4);
 }
 .team-title { 
     font-size: 36px;
