@@ -252,12 +252,6 @@ h1,h2,h3,h4,h5,h6,p {
 }
    
 /* Our Team */
-.team-list {
-
-    list-style: none;
-    background-color: #FFFFFF;
-   
-}
 
 .section-title {
     font-weight: 500;
@@ -305,9 +299,9 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .team-list {
-    background-color: #FFFFFF;
     display: flex;
     gap: 24px;
+    list-style: none;
 
 }
 .team-member-title {
