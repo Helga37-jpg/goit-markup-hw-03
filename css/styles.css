@@ -254,6 +254,9 @@ h1,h2,h3,h4,h5,h6,p {
     background-color: #F4F4FD;
     padding: 120px 0;
 }
+.team.item {
+    width: calc((100% - 72px) / 4);
+}
 .team-title { 
     font-size: 36px;
     line-height: 1.11;
@@ -261,6 +264,7 @@ h1,h2,h3,h4,h5,h6,p {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    margin-bottom: 72px;
 }
 .team-member-title {
     font-weight: 500;
@@ -278,7 +282,10 @@ h1,h2,h3,h4,h5,h6,p {
 }
 
 .team-list {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 24px;
+
 }
 
 /* Футер */
